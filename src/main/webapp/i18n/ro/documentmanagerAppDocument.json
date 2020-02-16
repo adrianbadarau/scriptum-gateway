@@ -1,0 +1,30 @@
+{
+  "gatewayApp": {
+    "documentmanagerAppDocument": {
+      "home": {
+        "title": "App Documents",
+        "createLabel": "Creeare o nouă entitate App Document",
+        "createOrEditLabel": "Creeare sau editare App Document",
+        "notFound": "No App Documents found"
+      },
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți App Document {{ id }}?"
+      },
+      "detail": {
+        "title": "App Document"
+      },
+      "content": "Content",
+      "documentLink": "Document Link",
+      "blob": "Blob",
+      "category": "Category",
+      "tags": "Tags"
+    }
+  },
+  "documentmanagerApp": {
+    "documentmanagerAppDocument": {
+      "created": "A fost creată o nouă entitate App Document cu identificatorul {{ param }}",
+      "updated": "Entitatea App Document cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Entitatea App Document cu identificatorul {{ param }} a fost ștearsă"
+    }
+  }
+}

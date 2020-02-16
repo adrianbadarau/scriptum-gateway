@@ -1,0 +1,50 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="appDocument">
+            <h2><span jhiTranslate="gatewayApp.documentmanagerAppDocument.detail.title">App Document</span> {{appDocument.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="gatewayApp.documentmanagerAppDocument.content">Content</span></dt>
+                <dd>
+                    <span>{{appDocument.content}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.documentmanagerAppDocument.documentLink">Document Link</span></dt>
+                <dd>
+                    <span>{{appDocument.documentLink}}</span>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.documentmanagerAppDocument.blob">Blob</span></dt>
+                <dd>
+                    <div *ngIf="appDocument.blob">
+                        <a (click)="openFile(appDocument.blobContentType!, appDocument.blob)" jhiTranslate="entity.action.open">open</a>
+                        {{appDocument.blobContentType}}, {{byteSize(appDocument.blob)}}
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.documentmanagerAppDocument.category">Category</span></dt>
+                <dd>
+                    <div *ngIf="appDocument.category">
+                        <a [routerLink]="['/category', appDocument.category?.id, 'view']">{{appDocument.category?.name}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="gatewayApp.documentmanagerAppDocument.tags">Tags</span></dt>
+                <dd>
+                    <span *ngFor="let tags of appDocument.tags; let last = last">
+                        <a [routerLink]="['/tag', tags?.id, 'view' ]">{{tags.name}}</a>{{last ? '' : ', '}}
+                    </span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/app-document', appDocument.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+{
+  "gatewayApp": {
+    "documentmanagerTag": {
+      "home": {
+        "title": "Tags",
+        "createLabel": "Creeare o nouă entitate Tag",
+        "createOrEditLabel": "Creeare sau editare Tag",
+        "notFound": "No Tags found"
+      },
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Tag {{ id }}?"
+      },
+      "detail": {
+        "title": "Tag"
+      },
+      "name": "Name",
+      "documents": "Documents"
+    }
+  },
+  "documentmanagerApp": {
+    "documentmanagerTag": {
+      "created": "A fost creată o nouă entitate Tag cu identificatorul {{ param }}",
+      "updated": "Entitatea Tag cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Entitatea Tag cu identificatorul {{ param }} a fost ștearsă"
+    }
+  }
+}

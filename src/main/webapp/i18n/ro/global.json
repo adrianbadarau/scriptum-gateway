@@ -10,6 +10,10 @@
         "bankAccount": "ContBancar",
         "label": "Etichetă",
         "operation": "Operație",
+        "documentmanagerDocument": "Document",
+        "documentmanagerAppDocument": "App Document",
+        "documentmanagerCategory": "Category",
+        "documentmanagerTag": "Tag",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

@@ -26,7 +26,8 @@
   },
   "generator-jhipster": {
     "promptValues": {
-      "nativeLanguage": "en"
+      "nativeLanguage": "en",
+      "microservicePath": "../scriptum-document-manager"
     },
     "jhipsterVersion": "6.6.0",
     "applicationType": "gateway",

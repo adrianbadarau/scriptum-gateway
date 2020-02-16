@@ -1,0 +1,28 @@
+{
+  "gatewayApp": {
+    "documentmanagerDocument": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "Creeare o nouă entitate Document",
+        "createOrEditLabel": "Creeare sau editare Document",
+        "notFound": "No Documents found"
+      },
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Document"
+      },
+      "content": "Content",
+      "documentLink": "Document Link",
+      "blob": "Blob"
+    }
+  },
+  "documentmanagerApp": {
+    "documentmanagerDocument": {
+      "created": "A fost creată o nouă entitate Document cu identificatorul {{ param }}",
+      "updated": "Entitatea Document cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Entitatea Document cu identificatorul {{ param }} a fost ștearsă"
+    }
+  }
+}

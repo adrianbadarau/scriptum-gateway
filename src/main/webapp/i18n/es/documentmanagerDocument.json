@@ -1,0 +1,28 @@
+{
+  "gatewayApp": {
+    "documentmanagerDocument": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "Crear nuevo Document",
+        "createOrEditLabel": "Crear o editar Document",
+        "notFound": "Ningún Documents encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Document"
+      },
+      "content": "Content",
+      "documentLink": "Document Link",
+      "blob": "Blob"
+    }
+  },
+  "documentmanagerApp": {
+    "documentmanagerDocument": {
+      "created": "Un nuevo Document ha sido creado con el identificador {{ param }}",
+      "updated": "Un Document ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Document ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}

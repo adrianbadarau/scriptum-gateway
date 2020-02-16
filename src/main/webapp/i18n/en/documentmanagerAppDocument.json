@@ -1,0 +1,30 @@
+{
+  "gatewayApp": {
+    "documentmanagerAppDocument": {
+      "home": {
+        "title": "App Documents",
+        "createLabel": "Create a new App Document",
+        "createOrEditLabel": "Create or edit a App Document",
+        "notFound": "No App Documents found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete App Document {{ id }}?"
+      },
+      "detail": {
+        "title": "App Document"
+      },
+      "content": "Content",
+      "documentLink": "Document Link",
+      "blob": "Blob",
+      "category": "Category",
+      "tags": "Tags"
+    }
+  },
+  "documentmanagerApp": {
+    "documentmanagerAppDocument": {
+      "created": "A new App Document is created with identifier {{ param }}",
+      "updated": "A App Document is updated with identifier {{ param }}",
+      "deleted": "A App Document is deleted with identifier {{ param }}"
+    }
+  }
+}

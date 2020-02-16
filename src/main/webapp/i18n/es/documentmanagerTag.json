@@ -1,0 +1,27 @@
+{
+  "gatewayApp": {
+    "documentmanagerTag": {
+      "home": {
+        "title": "Tags",
+        "createLabel": "Crear nuevo Tag",
+        "createOrEditLabel": "Crear o editar Tag",
+        "notFound": "Ningún Tags encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Tag {{ id }}?"
+      },
+      "detail": {
+        "title": "Tag"
+      },
+      "name": "Name",
+      "documents": "Documents"
+    }
+  },
+  "documentmanagerApp": {
+    "documentmanagerTag": {
+      "created": "Un nuevo Tag ha sido creado con el identificador {{ param }}",
+      "updated": "Un Tag ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Tag ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}
